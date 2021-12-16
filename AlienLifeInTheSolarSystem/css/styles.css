@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   color: white;
+   vertical-align: baseline;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(".././assets/fonts/MuseoSans_500.woff2") format('woff');
+}
+
+body{
+   font-family: myFirstFont;
+   background-color: black;
+}
+
+.bodypar > p{
+   padding: 6px 30px 6px 30px;
+   font-size: 9px;
+}
+
+#marsisprettycool {
+   width: 100%;
+}
+
+#titlespace {
+   text-align: center;
+   position: relative;
+}
+
+#title {
+   position: absolute;
+   top: 40px;
+   font-size: 35px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%; /* Need a specific value to work */
+}
+
+h3 {
+   font-size: 12px;
+   margin-left: 5px;
+}
+
+#theleftone {
+   float: left;
+   width: 25%;
+   font-size: 10px;
+   padding: 13px 5px 13px 5px;
+   margin: 15px 15px 0 15px;
+   border-bottom: white 2px solid;
+   border-top: white 2px solid;
+}
+
+#therightone {
+   float: right;
+   width: 25%;
+   font-size: 7px;
+   padding: 13px 5px 13px 5px;
+   margin: 15px 15px 0 15px;
+   border-bottom: white 2px solid;
+   text-align: center;
+}
+
+#fixtheplanet {
+   width: 100%;
+}
+
+#subtitle {
+   position: absolute;
+   top: 85px;
+   left: 0;
+   right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%; /* Need a specific value to work */
+
+}
+@media (min-width: 500px) {
+   #title {
+      font-size: 45px;
+   }
+
+   h3 {
+      font-size: 15px;
+      margin-left: 8px;
+   }
+
+   #theleftone {
+      float: left;
+      width: 20%;
+      font-size: 12px;
+      padding: 13px 5px 13px 5px;
+      margin: 15px 15px 0 15px;
+   }
+}
+
+
+@media (min-width: 700px) {
+   #title {
+      font-size: 45px;
+      top: 120px;
+   }
+
+   #subtitle {
+      top: 180px;
+      font-size: 22px;
+   }
+   h3 {
+      font-size: 15px;
+      margin-left: 8px;
+   }
+
+   .bodypar > p{
+      padding: 6px 35px 6px 35px;
+      font-size: 11px;
+   }
+}
+
+@media (min-width: 900px) {
+   #title {
+      font-size: 45px;
+      top: 120px;
+   }
+
+   #subtitle {
+      top: 180px;
+      font-size: 22px;
+   }
+   h3 {
+      font-size: 20px;
+      margin-left: 8px;
+   }
+
+   .bodypar > p{
+      padding: 6px 35px 6px 35px;
+      font-size: 15px;
+   }
+
+   #theleftone {
+      width: 20%;
+      font-size: 15px;
+      padding: 20px 5px 20px 5px;
+      margin: 15px 15px 0 15px;
+   }
+}
+
+@media (min-width: 1000px) {
+   #title {
+      font-size: 80px;
+      top: 200px;
+   }
+
+   #subtitle {
+      top: 300px;
+      font-size: 45px;
+   }
+   h3 {
+      font-size: 20px;
+      margin-left: 8px;
+   }
+
+   .bodypar > p{
+      padding: 6px 50px 6px 50px;
+      font-size: 15px;
+   }
+
+   #theleftone {
+      width: 20%;
+      font-size: 15px;
+      padding: 20px 5px 20px 5px;
+      margin: 15px 15px 0 15px;
+   }
+}
